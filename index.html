@@ -6,7 +6,8 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: rgba(52, 35, 27, 0.834);
+ 
+    background-color: rgba(0, 0, 0, 0.877);
 }
             header{
                 display: flex;
@@ -37,7 +38,7 @@ body{
                 align-items: center;
                 justify-content: center;
             
-                letter-spacing: 1000px;
+                letter-spacing: 1px;
                
                 
             }
@@ -57,12 +58,14 @@ body{
                 display: flex;
                 justify-content: space-around;
                 align-items: center;
+                justify-items: center;
                 flex-direction: column;
             }
 
             .ThirdC{
                 display: flex;
-                justify-content: space-evenly;
+                justify-content: space-around;
+                width: 94%;
             
             }
 
@@ -131,13 +134,14 @@ body{
 
         .imgsm{
             display: flex;
-            justify-content: space-evenly;
+        justify-content: space-evenly; 
+      
+            flex-wrap: wrap;
+            column-gap: 12px;
+       
         }
 
-        .imgsm2{
-            display: flex;
-            justify-content: space-evenly;
-        }
+        
 
         .ninec{
             display: flex;
@@ -195,8 +199,8 @@ body{
         .finds{
              display: flex;
             justify-content: space-around;
-            font-size: 20px;
-            width: 10%;
+            /* font-size: 20px; */
+            /* width: 10%; */
             align-items: center;
             justify-items: center;
         }
@@ -237,37 +241,37 @@ body{
             <div style="color: white; ">Fresh brew. Real flavor</div>
             </div>
     </div>
-        </div><br><br>
+    </div><br><br>
 
 
 <!--SECOND COntainer-->
         <div class="secondc">
-           <h1 style="font-size: 26px; color: wheat;">Our Delicious Offer</h1>
+           <h1 style="font-size: 33px; color: wheat;">Our Delicious Offer</h1>
            <div>
             <img src="title-separator.png">
            </div> <br>
-           <div style="color: white; font-size: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</div>
-        </div><br><br>
+           <div style="color: white; font-size: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>sed do eiusmod tempor incididunt ut labore et dolore</div>
+        </div><br><br><br>
 
 
         <!-- THird Container-->
         <div class="ThirdC">
-            <div style="display: flex; flex-direction: column; align-items: center; width: 20%; border: 2px solid white;  border-radius: 15px;"><img src="coffec.webp" height="300px" width="300px">
+            <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 20%; border: 2px solid white;  border-radius: 15px;"><img src="coffec.webp" height="300px" width="270px">
               <h1 style="color:wheat ;">Types of Coffee</h1>
-              <h4 style="align-items: center; font-size: 20px; color: rgba(245, 245, 245, 0.781);">Lorem ipsum dolor sit ametal, consectetuer adipiscing elitus. Aeneantos commodo</h4>
+              <h4 style="align-items: center; font-size: 20px; color: rgba(245, 245, 245, 0.911); justify-content: center;">Lorem ipsum dolor sit ametal, consectetuer adipiscing elitus. Aeneantos commodo</h4>
 
             </div>
 
             <div style="display: flex; flex-direction: column; align-items: center; width: 20%; border: 2px solid white;  border-radius: 15px;">
                 <img src="coffebean.png" width="200px" height="300px">
                 <h1 style="color:wheat ;">Best Bean Varities</h1>
-                <h4 style="align-items: center; font-size: 20px; color: rgba(245, 245, 245, 0.781);">In Our Shop are avliable Best Bean Varities </h4>
+                <h4 style="align-items: center; justify-content: center; font-size: 20px; color: rgba(245, 245, 245, 0.911);">In Our Shop are avliable Best Bean Varities </h4>
             </div>
 
             <div style="display: flex; flex-direction: column; align-items: center; width: 20%; border: 2px solid white;  border-radius: 15px;">
                 <img src="pas.png" width="200px" height="300px" >
                 <h1 style="color:wheat ;">Coffee & Pastry</h1>
-                <h4 style="align-items: center; font-size: 20px;color: rgba(245, 245, 245, 0.781); ">In Our Shop are avliable Best Coffee & Pastry</h4>
+                <h4 style="align-items: center; justify-content: center; font-size: 20px;color: rgba(245, 245, 245, 0.911); ">In Our Shop are avliable Best Coffee & Pastry</h4>
             </div>
 
             <div style="display: flex; flex-direction: column; align-items: center; width: 20%; border: 2px solid white; border-radius: 15px;">
@@ -277,35 +281,40 @@ body{
           
         </div>
 <br><br><br><br><br><br>
+
+
+
         <!--Fourth Container-->
 
           <div class="fourthc">
             <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                <h1 style="font-size: 50px; color:wheat">The Coffee Herald</h1>
+                <h1 style="font-size: 50px; color:rgb(247, 222, 176)">The Coffee Herald</h1>
                 <img src="title-separator.png" alt="">
-                <p style="font-size: 22px; color: whitesmoke;">Don't sip the coffee only, sip the emotions</p>
+                <p style="font-size: 22px; color: white;">Don't sip the coffee only, sip the emotions</p>
             </div>
 
-             <div style="display: flex; align-items: center; justify-content: space-around; column-gap: 40px;">
+            <div style="display: flex; align-items: center; justify-content: space-around; column-gap: 40px;">
                 <div>
-                    <img src="prepration.jpg"width="300px" height="300px">
+                    <img src="prepration.jpg"width="300px" height="300px" style="border-radius: 10px;">
                     <h1 style="color:wheat ;">PREP TECHNIQUES</h1>
                     <p style="width: 300px; text-align: justify; color: whitesmoke;">Quisque rutrum, aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi, nam eget dui. Etiam rhoncus maecenas tempus,</p>
                 </div>
-                <div>
-                    <img src="frenchp.jpg" alt="" width="300px" height="300px">
+            <div>
+                    <img src="frenchp.jpg" alt="" width="300px" height="300px"  style="border-radius: 10px;">
                     <h1 style="color:wheat ;">FRENCH PRESS</h1>
                     <p style="width: 300px; text-align: justify; color: whitesmoke;">Quisque rutrum, aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi, nam eget dui. Etiam rhoncus maecenas tempus,</p>
                 </div>
-                <div>
-                    <img src="TB.jpg" alt="" width="300px" height="300px">
+            <div>
+                    <img src="TB.jpg" alt="" width="300px" height="300px"  style="border-radius: 10px;">
                     <h1 style="color:wheat ;">TURKISH IBRIK </h1>
                     <p style="width: 300px; text-align: justify; color: whitesmoke;">Quisque rutrum, aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi, nam eget dui. Etiam rhoncus maecenas tempus,</p>
                 </div>
                 
-            </div>
+           </div>
         </div>
-<br><br>
+<br><br><br><br>
+
+
 <!--Fifth Container-->
 
         <div class="fifthc">
@@ -319,67 +328,69 @@ body{
             <div style="display: flex; flex-direction: column; align-items: center; width: 20%; ">
                 <h1 style="color: white;">250</h1>
                 <h1>Varieties of Coffee</h1>
-<h3 style="color: whitesmoke;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit aenean</h3>
+                <h3 style="color: whitesmoke;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit aenean</h3>
             </div>
 
 
             <div style="display: flex; flex-direction: column; align-items: center; width: 20%; ">
                 <h1 style="color: white;">123</h1>
                 <h1>Hours of Testing</h1>
-<h3 style="color: whitesmoke;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit aenean</h3>
+                <h3 style="color: whitesmoke;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit aenean</h3>
             </div>
 
             <div style="display: flex; flex-direction: column; align-items: center; width: 20%; ">
                 <h1 style="color: white;">321</h1>
                 <h1>Coffee Markets</h1>
-<h3 style="color: whitesmoke;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit aenean</h3>
+                <h3 style="color: whitesmoke;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit aenean</h3>
             </div>
             <div style="display: flex; flex-direction: column; align-items: center; width: 20%; ">
                 <h1 style="color: white;">220</h1>
                 <h1>Coffee Brands</h1>
-<h3 style="color: whitesmoke;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit aenean</h3>
+                <h3 style="color: whitesmoke;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit aenean</h3>
 
-</div>
         </div>
-<br><br>
+    </div>
+<br><br><br>
 
 
 <!--Seventh Container for products-->
 
         <div class="seventhc">
             
-              <div class="sc">  <h1>Online Coffee Shop</h1>
+              <div class="sc">  <h1 style="color: chocolate;">Online Coffee Shop</h1>
             
-             <img src="title-separator.png"><br>
+              <img src="title-separator.png"><br>
         
-           <div style="color: black; font-size: 25px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>sed do eiusmod tempor incididunt ut labore et dolore
+             <div style="color: black; font-size: 25px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>sed do eiusmod tempor incididunt ut labore et dolore
         </div>
         </div><br><br>
-<!-- this is also present int seventh container for creating poducts-->
-        <div class="product">
-            <div style="display: flex; flex-direction: column; align-items: center; width: 25%;">
-            <img src="product-img-1.png" height="250px" width="270px">
-            <h2>Ethiopia Coffee</h2>
-            <h4 style="font-size: 20px;">$15.00</h4>
-            </div>
 
-            <div style="display: flex; flex-direction: column; align-items: center; width: 25%;">
+
+<!-- this is also present int seventh container for creating poducts-->
+        <div class="product" style="width: 90%;">
+             <div style="display: flex; flex-direction: column; align-items: center; width: 25%;">
+                 <img src="product-img-1.png" height="250px" width="270px">
+                 <h2>Ethiopia Coffee</h2>
+                <h4 style="font-size: 20px;">$15.00</h4>
+             </div>
+
+             <div style="display: flex; flex-direction: column; align-items: center; width: 25%;">
                 <img src="product-2.png" height="250px" width="270px">
                 <h2>Kenya Coffee</h2>
                 <h4 style="font-size: 20px;">$18.00</h4>
-            </div>
+             </div>
 
-            <div style="display: flex; flex-direction: column; align-items: center; width: 25%;">
+             <div style="display: flex; flex-direction: column; align-items: center; width: 25%;">
                 <img src="product3.png" height="250px"width="270px">
                 <h2>Columbia Coffee</h2>
                 <h4 style="font-size: 20px;">$21.00</h4>
-            </div>
-            <div style="display: flex; flex-direction: column; align-items: center; width: 25%;">
+             </div>
+             <div style="display: flex; flex-direction: column; align-items: center; width: 25%;">
                 <img src="product4.png" height="250px"width="270px">
-                <h2>Guatemala Coffee</h2>
+                <h2 style="font-size: 20px;">Guatemala Coffee</h2>
                 <h4 style="font-size: 20px;">$25.00</h4>
+             </div>
             </div>
-        </div>
     
         </div><br><br>
 
@@ -390,80 +401,61 @@ body{
             <img src="title-separator.png">
             <h4 style="color: whitesmoke;">Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> sed do eiusmod tempor incididunt ut labore et dolore</h4>
         </div>
-        
+        <br>
 
-        <!-- This is the sweet gallry images
-          -->
-            <div class="imgsm">
-                <div style="display: flex; flex-direction: column; align-items: center; width: 20%;"> 
-                     <img src="s1.jpg" width="300px" height="250px">
-                </div>
+        <!-- This is the sweet gallry images-->
+          <div class="imagecontainer">
+            <div class="imgsm" style="display: flex; align-items: center; justify-content: center; column-gap: 12px; row-gap: 12px; flex-wrap: wrap; width: 100%;" >
             
-                <div style="display: flex; flex-direction: column; align-items: center; width: 20%;">           
-                     <img src="s2.jpg" width="300px" height="250px">
-                </div>
-
-                
-                <div style="display: flex; flex-direction: column; align-items: center; width: 20%;">
-                    <img src="s3.jpg" width="300px" height="250px">
-                </div>
-                
-                <div style="display: flex; flex-direction: column; align-items: center; width: 20%;">
-                    <img src="s4.jpg" width="300px" height="250px">
-                </div>
-            </div><br><br>
+                     <img src="s1.jpg" width="300px" height="250px" style="border-radius: 8px;" >
+              
+                     <img src="s2.jpg" width="300px" height="250px"  style="border-radius: 8px;">
+  
+                     <img src="s3.jpg"  width="300px" height="250px"  style="border-radius: 8px;">
             
-            <div class="imgsm2">
-                <div style="display: flex; flex-direction: column; align-items: center; width: 20%;">
-                    <img src="s5.jpg" width="300px" height="250px">
-                </div>
-                
-                <div style="display: flex; flex-direction: column; align-items: center; width: 20%;">
-                    <img src="s16.jpeg" width="300px" height="250px">
-                </div>
+                     <img src="s4.jpg"  width="300px" height="250px"  style="border-radius: 8px;">
+         
+                     <img src="s5.jpg"  width="300px" height="250px"  style="border-radius: 8px;">
+             
+                     <img src="s16.jpeg"  width="300px" height="250px"  style="border-radius: 8px;">
 
-                <div style="display: flex; flex-direction: column; align-items: center; width: 20%;">
-                    <img src="s7.jpeg" width="300px" height="250px">
-                </div>
+                     <img src="s7.jpeg"  width="300px" height="250px"  style="border-radius: 8px;">
 
-                <div style="display: flex; flex-direction: column; align-items: center; width: 20%;">
-                    <img src="s8.jpeg" width="300px" height="250px">
-                </div>  
+                     <img src="s8.jpeg" width="300px" height="250px"  style="border-radius: 8px;">
+            
+          </div>
           </div>
         
-<br><br>
+<br><br><br>
 
 <!-- THis is for the brand logo's-->
 
-        <div class="ninec">
-           <div style="display: flex; flex-direction: column; align-items: center; width: 20%; ">
-             <img src="logoc1.png" width="230px">
-            </div>
-            <div style="display: flex; flex-direction: column; align-items: center; width: 20%;">
-                 <img src="logoc2.png" width="230px">
-            </div>
-            <div style="display: flex; flex-direction: column; align-items: center; width: 20%;">
-                <img src="logoc3.png" width="230px">
-            </div>
-           <div style="display: flex; flex-direction: column; align-items: center; width: 20%;">
-            <img src="logoc4.png" width="230px">
-            </div>
-            <div style="display: flex; flex-direction: column; align-items: center; width: 20%;">
-                <img src="logoc5.png" width="230px">
-            </div>
+        <div class="ninec" style="display: flex; align-items: center; justify-content: space-evenly; flex-wrap: wrap;">
+  
+             <img src="logoc1.png">
+    
+                 <img src="logoc2.png" >
+
+                <img src="logoc3.png" >
+    
+            <img src="logoc4.png" >
+    
+
+              
+    
             
         </div>
-        <br>
+        <br><br><br>
 
 <!--THis is the contact information-->
-        <div class="contact">
+        <div class="contact" style="height: 200px;">
       
-            <h2 class="informc" style="font-size: 22px;">For any order please contact us</h2>
-          
-                <button  class="btn" style="width: 130px; height: 50px; font-size: 20px; background-color: black; color: white;">Contact Us</button>
-            
+            <h2 class="informc" style="font-size: 30px; color: rgba(0, 0, 0, 0.795);">Download My Resume</h2>
+          <a href="Yogesh_Resume.docx">
+                <button  class="btn" style="width: 130px; height: 50px; font-size: 25px; background-color: rgba(185, 157, 105, 0.845); color: rgb(4, 4, 4);">Download</button>
+            </a>
         </div>
-<br>
+
 <div class="maininformation">
     <div class="fc" style="background-color: rgba(9, 9, 9, 0.738); width: 100%; height: 600px;"> <center> <div class="infs" style="color: white;justify-content: center; align-content: center; text-align:center;">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br>
 
@@ -477,15 +469,16 @@ nostrud <br>exercitation ullamco laboris.”
 Dunsmuir Ave, Los Angeles, CA 90036, USA<br><br>
 
 Atkins Ave, Brooklyn, NY 11208, USA</h3><br>
-<p> <h3 style="color: white;"><h1>News As Fresh As Our Coffee</h1><br><input type="email" placeholder="Your email adress.." style="width: 290px; height:50px ; border: 2px solid whitesmoke; background-color:rgba(0, 0, 0, 0.305);"></h3></p></div></center>
+<p> <h3 style="color: white;"><h1>News As Fresh As Our Coffee</h1><br><input type="email" placeholder="Your email adress.." style="width: 290px; height:50px ; color: wheat; font-size: 22px; border: 2px solid whitesmoke; background-color:rgba(0, 0, 0, 0.305);"></h3></p></div></center>
 
 </div>
 </div>
 </div>
+<br><br>
 
 <footer>
     <div class="copy">
-        <img src="cws.png" width="30px" height="30px"><h3 style="color: white;"> 2025 All Rights Reserved</h3>
+<h3 style="color: rgba(245, 222, 179, 0.877); font-size: 19px;"> Built with ❤ By Yogesh Rasure</h3>
     </div>
     <div class="tabsf"><a href="#" class="na">HOME</a>
                        <a href="#" class="na">SHOP</a>
@@ -493,9 +486,10 @@ Atkins Ave, Brooklyn, NY 11208, USA</h3><br>
                        <a href="#" class="na">CONTACT</a>
     </div>
 
-    <div class="finds"><img src="instagram.png" height="40px" width="40px">
+    <div class="finds">
+        <a href="https://www.instagram.com/yogesh_rasure.7/"><img src="instagram.png" height="40px" width="40px"></a>
     <img src="facebook.png" height="52px" width="40px">
-    <img src="twitter.png" height="50px" width="40px">
+  
     </div>
 </footer>
     </body>
